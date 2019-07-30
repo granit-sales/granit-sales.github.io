@@ -7,9 +7,6 @@
     padding: 4px;
 }
 
-.wrap_small_contnt {
-    padding: 4px;
-}
 
 .small_content {
     width: 180px;
@@ -31,26 +28,27 @@
     cursor: pointer;
 }
 
-.sc_discription :hover {
-
+.sc_discription a :hover {
     color: #ff7878;
     text-decoration: underline;
 }
 
-.hart {
-    display: none;
-    justify-content: flex-end;
+.sc_price{
+    height: 10px;
 }
 
-.sc_discription {
+.sc_discription a {
     font: 15px/20px sans-serif;
-    margin-top: 4px;
+    margin-top: 4px 0 0 0;
     max-width: 250px;
     margin-left: 5px;
+    color: black;
+
 }
 
 .sc_price {
-    margin-top: 10px;
+    padding-top: 10px; 
+    margin: 10px;
     font: 16px/10px sans-serif;
     color: #ff7878;
 }

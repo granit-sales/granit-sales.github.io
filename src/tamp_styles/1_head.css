@@ -17,6 +17,9 @@ a {
 body {
     background: #fafafa;
     width: 100%; 
+    position: relative;
+    padding-bottom: 200px;
+    box-sizing: border-box; 
 }
 
 @font-face  {
@@ -43,11 +46,6 @@ body {
     font-family: 'Segoe UI Light';
 }
 
-
-.wrapp_content{
-    width: 75%;
-    float: left;
-}
 
 
 

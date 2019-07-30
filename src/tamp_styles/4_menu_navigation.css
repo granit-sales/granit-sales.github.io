@@ -6,12 +6,13 @@
     border: solid #e6e6e6 1px;
     border-radius: 2%;
     right: 0;
-    top: 77px;
+    top: 53px;
     padding: 10px;
     height: 450px;
     transition: all 1s;
     background-color: rgba(3, 3, 3, 0.6);
     color: white;
+    z-index: 101;
 
 }
 

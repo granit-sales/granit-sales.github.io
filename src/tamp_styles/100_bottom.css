@@ -1,0 +1,26 @@
+.probel_beetveen{
+	
+	content: "";
+	width: 100%;
+	border: solid blue 10px;
+	min-height: 800px;
+
+}
+
+footer{
+	margin-top: 20px;
+	bottom: 0;
+	position: absolute;
+	height: 100px;
+	width: 100%;
+}
+
+footer{
+	
+}
+
+body{
+	position: relative;
+	padding-bottom: 120px;
+	box-sizing: border-box;
+}

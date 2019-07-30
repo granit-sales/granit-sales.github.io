@@ -8,15 +8,21 @@
 
 
 /*light galeery*/
-            .demo-gallery > ul {               
-                margin: 0 auto;
-                position: absolute;
-                z-index: -999;
-            }
 
-			.demo-gallery{
+    .title_gallery{
+    margin: 0 0 20px 10px;
+    }
+            .demo-gallery{
+                margin: 10px;
+            }
+          
+            .demo-gallery > ul {               
+                position: absolute;
+                
                 
             }
+
+
 
             .demo-gallery:after{
 				content: "";
