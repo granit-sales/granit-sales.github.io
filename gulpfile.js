@@ -17,6 +17,7 @@ const cssFiles = [
 	'./src/tamp_styles/6_small_content_box.css',
 	'./src/tamp_styles/7_content_box.css',
 	'./src/tamp_styles/8_overlay.css',
+  './src/tamp_styles/100_bottom.css',
 	'./src/tamp_styles/999_adaptation.css'
 ]
 //Порядок подключения js файлов
