@@ -6,22 +6,23 @@
 }
 
 
+.title_gallery_2
+    {
+        margin: 30px 0 20px 20px;
+    }
+
+
 
 /*light galeery*/
 
-    .title_gallery{
-    margin: 0 0 20px 10px;
-    }
+            .title_gallery
+            {
+            margin: 0 0 20px 10px;
+            }
             .demo-gallery{
-                margin: 10px;
-            }
-          
-            .demo-gallery > ul {               
-                position: absolute;
-                
-                
-            }
-
+                margin: 20px;
+            }    
+        
 
 
             .demo-gallery:after{
@@ -35,6 +36,7 @@
                 margin-bottom: 15px;
                 margin-right: 0px;
                 width: 200px;
+                min-height: 250px;
                 position: relative;
             }
             .demo-gallery > ul > li a {
@@ -141,6 +143,21 @@
             }
             .home .demo-gallery {
                 padding-bottom: 80px;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+            .about_us{
+                background-color: #e9ecef;
             }
 
 

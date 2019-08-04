@@ -28,23 +28,21 @@
     cursor: pointer;
 }
 
-.sc_discription a :hover {
-    color: #ff7878;
-    text-decoration: underline;
+.sc_discription a:hover {
+    color: black;
+    
 }
 
 .sc_price{
-    height: 10px;
-}
-
-.sc_discription a {
-    font: 15px/20px sans-serif;
-    margin-top: 4px 0 0 0;
-    max-width: 250px;
-    margin-left: 5px;
-    color: black;
+   margin-top: 20px;
 
 }
+.sc_discription{
+    height: 100px;
+}
+
+
+
 
 .sc_price {
     padding-top: 10px; 
