@@ -20,6 +20,12 @@ body {
     position: relative;
     padding-bottom: 200px;
     box-sizing: border-box; 
+    scroll-behavior: smooth;
+
+}
+body a{
+    /*border: solid red 1px;*/
+     scroll-behavior: smooth;
 }
 
 @font-face  {

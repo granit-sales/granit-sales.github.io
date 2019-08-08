@@ -10,6 +10,8 @@ var windows_width = $(window).width();
 
 document.getElementById('position_button_menu').onclick = function () {                         //фенккція відкритт та закриття меню ()///
 	
+	
+console.log("hiiii");
 	if (indecator_opening===false)               //Якщо меню закрите то ми робимо це ()///
 		{
 			$(".button_menu").css("display", "block");            // Ховаэмо кнопку выдкриття меню ()///

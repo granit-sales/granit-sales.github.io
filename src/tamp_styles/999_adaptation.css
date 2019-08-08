@@ -7,6 +7,12 @@
         justify-content: center;
     }
 
+                .beafore-discription
+            {
+                width: 100%;
+                height: 210px;
+            }
+
 
 
     .top_menu {
@@ -57,7 +63,7 @@
     }
 
     .menu_navigation {
-        width: 48%;
+        width: 30%;
         right: -1000px;
     }
 
@@ -72,15 +78,27 @@
 
 @media screen and (max-width: 1025px) {
 
+            .beafore-discription
+            {
+                width: 100%;
+                height: 180px;
+            }
+
 }
 
 @media screen and (max-width: 769px) {
   
   .menu_navigation {
-        width: 68%;
+        width: 40%;
     }
 }
 
+@media screen and (max-width: 764px) {
+  
+  .menu_navigation {
+        width: 60%;
+    }
+}
 
 @media screen and (max-width: 365px) {
  
@@ -92,6 +110,14 @@
     .wrapper_for_content_box {
         overflow: hidden;
     }
+
+
+            .demo-gallery > ul > li {
+                min-height: 230px;
+             
+            }
+
+
 
 }
 
