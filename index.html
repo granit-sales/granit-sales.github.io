@@ -128,25 +128,48 @@
 
 
 
-
-
         <div class="menu_navigation">
 
             <div class="menu_navigation_son_1">
                 <div class="Welkome">Welcome</div>
+                <div class="choose_languige">
+                    <select class="custom-select custom-select-sm" >    
+                        <option>ENG</option>
+                        <option>DEU</option>
+                        <option>RUS</option>
+                        <option>UKR</option>
+                    </select>
+                </div>
             </div>
 
 
 
-            <div class="sector_navigation">
-                <div><a href="#home"><p>Home</p></a></div>
-                 <div><a href="#about_us"><p>About us</p></a></div>
-                <div><a href="#stone_gallery"><p>Stone gallery</p></a></div>
-                <div><a href="#produkt"><p>Production</p></a></div>
-               
-                <div><a href="#about_us"><p>Prace list</p></a></div>
-                <div><a href="#contacts"><p>Contacts</p></a></div>
-                
+            <div class="sector_navigation" id="tree">
+                <ul>
+                    <li>
+                        <div><a href="#home"><p><span>Home</span></p></a></div>
+                    </li>
+                    <li>
+                        <div><a href="#about_us"><p><span>About us</span></p></a></div>
+                    </li>
+                    <li>
+                        <div><a href="#stone_gallery"><p><span>Stone gallery</span></p></a></div>
+                    </li>
+                    <li>
+                        <div><a href="#produkt"><p><span>Production</span></p></a></div>
+                        <ul class="sun_brantch">
+                            <li><a href="#produkt"><span>Paving chipped</span></a></li>
+                            <li><a href="#produkt"><span>Paving slabs</span></a></li>                        
+                        </ul>
+                    </li>
+                   
+                    <li>
+                        <div><a href="#about_us"><span><p>Prace list</p></span></a></div>
+                    </li>
+                    <li>
+                        <div><a href="#contacts"><p>Contacts</p></a></div>
+                    </li>
+                </ul>
             </div>
 
         </div>
@@ -484,7 +507,6 @@
     
         </div>
     </div>  
-
 
 
 

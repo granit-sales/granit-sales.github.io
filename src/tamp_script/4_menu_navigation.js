@@ -55,16 +55,15 @@ function adaptat (){
 
 adaptat();
 
-// function adaptat (){
-// 	if (windows_width<1126) {	
-// 		$(".button_menu").css("display", "block");            // Ховаэмо кнопку выдкриття меню ()///
-// 		$(".close_button_menu").css('display', 'none'); // показуэмо кнопку закриття меню()///
-// 		$(".menu_navigation").addClass("open_menu_navigation"); // додяэмо клас з цсс властивостями до елементу меню що його відкрити()///
-// 		$(".open_menu_navigation").css("right", "-600px");
-// 		count_openes++;
-// 		alert("function do");
-// 	}
-// }
 
-// adaptat();
-//menu navigation
+for(var li of tree.querySelektorAll('li')){
+	var span = document.createElement('span');
+	span.classList.add(show);
+	li.preperend(span);
+	span.append(span.nextSibling);
+}
+  
+  
+// tree.onclick = function (event){
+// 	console
+// }

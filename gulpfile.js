@@ -64,17 +64,17 @@ function styles() {
 //Таск на скрипты JS
 function scripts() {
    //Шаблон для поиска файлов JS
-   //Всей файлы по шаблону './src/js/**/*.js'
-   return gulp.src(jsFiles)
-   //Объединение файлов в один
-   .pipe(concat('script.js'))
-   //Минификация JS
-   .pipe(uglify({
-      toplevel: true
-   }))
-   //Выходная папка для скриптов
-   .pipe(gulp.dest('./src/script'))
-   .pipe(browserSync.stream());
+//    //Всей файлы по шаблону './src/js/**/*.js'
+//    return gulp.src(jsFiles)
+//    //Объединение файлов в один
+//    .pipe(concat('script.js'))
+//    //Минификация JS
+//    .pipe(uglify({
+//       toplevel: true
+//    }))
+//    //Выходная папка для скриптов
+//    .pipe(gulp.dest('./src/script'))
+//    .pipe(browserSync.stream());
 }
 
 //Удалить всё в указанной папке
