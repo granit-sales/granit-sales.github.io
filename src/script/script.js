@@ -41,7 +41,7 @@ $(document).ready(function(){
 
 
 // use google table
-	$.getJSON("https://spreadsheets.google.com/feeds/list/1PvCDFWj4PmMAcP1oOX-TU8m-CG88cvFNNpa_R9sUdgE/od6/public/values?alt=json", function(data){
+	$.getJSON("https://spreadsheets.google.com/feeds/list/1Rb6CCOrguhD55Bod1btbk76VDQ033RKbxGJjdt_bFuY/od6/public/values?alt=json", function(data){
 		data = data['feed']['entry']
 		console.log(data);
 		show_menu(data);
